@@ -147,7 +147,7 @@ Configuration of mod_auth_keystone on OpenShift broker
      # The node->broker auth is handled in the Ruby code
 ```
 
-1. Restart OpenShift services
+1. **Restart OpenShift services**
 
    `# service openshift-broker restart`
    `# service openshift-console restart`
