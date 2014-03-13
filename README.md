@@ -17,6 +17,12 @@ well as basic username/password verification.
 Building, installing and running
 --------------------------------
 
+- Install prerequisites:
+
+  On RHEL and Fedora:
+
+  `# yum -y install gcc httpd-devel libcurl-devel make openssl-devel`
+
 - Build everything:
 
   `$ make all`
